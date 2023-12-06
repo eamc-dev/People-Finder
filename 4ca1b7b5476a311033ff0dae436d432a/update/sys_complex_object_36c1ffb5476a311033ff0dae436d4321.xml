@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>output6537640974</name>
+        <namespace>LowCodeUserAPIlatest</namespace>
+        <scope_name>4ca1b7b5476a311033ff0dae436d432a</scope_name>
+        <serialized_content>{"LowCodeUserAPIlatest:output6537640974":{"agency_name":"String","manager":"String","city":"String","date_of_birth":"String","job_position":"String","last_name":"String","middle_name":"String","telework-certified":"String","office_phone":"String","full_name":"String","mobile_phone":"String","street":"String","state":"String","postal_code":"String","first_name":"String","email":"String"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 18:59:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36c1ffb5476a311033ff0dae436d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>output6537640974</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="People Finder" source="x_425448_people_fi">4ca1b7b5476a311033ff0dae436d432a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="People Finder">4ca1b7b5476a311033ff0dae436d432a</sys_scope>
+        <sys_update_name>sys_complex_object_36c1ffb5476a311033ff0dae436d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 18:59:16</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

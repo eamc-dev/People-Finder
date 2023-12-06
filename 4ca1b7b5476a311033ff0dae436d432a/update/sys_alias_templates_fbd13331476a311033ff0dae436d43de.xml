@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias_templates">
+    <sys_alias_templates action="INSERT_OR_UPDATE">
+        <default_data_template>{&#13;
+	"credential": {&#13;
+		"api_key": "&lt;provider-api-key&gt;",&#13;
+		"name": "&lt;provider-name&gt; Spoke Credential",&#13;
+		"table": "api_key_credentials"&#13;
+	},&#13;
+	"connection": {&#13;
+		"use_mid": false,&#13;
+		"connection_url": "",&#13;
+		"name": "",&#13;
+		"table": "http_connection"&#13;
+	}&#13;
+}</default_data_template>
+        <dynamic_data_schema>{&#13;
+	"connection_fields": [{&#13;
+		"name": "connection.name",&#13;
+		"label": "Connection Name",&#13;
+		"type": "text",&#13;
+		"defaultValue": "&lt;provider-name&gt; Spoke Connection",&#13;
+		"hint": "Display name for the Connection", &#13;
+                "mandatory":true&#13;
+	}, {&#13;
+		"name": "connection.connection_url",&#13;
+		"label": "Connection URL",&#13;
+		"type": "text",&#13;
+		"defaultValue": "https://&lt;provider-domain-name&gt;.com",&#13;
+		"hint": "Connection URL for provider", &#13;
+                "mandatory":true&#13;
+	}],&#13;
+	"credential_fields": [{&#13;
+		"name": "credential.api_key",&#13;
+		"label": "API Key",&#13;
+		"type": "password",&#13;
+		"defaultValue": "",&#13;
+		"hint": "API Key for provider",&#13;
+                "mandatory":true&#13;
+	}]&#13;
+}</dynamic_data_schema>
+        <name>People Finder Configuration Template</name>
+        <on_edit_script/>
+        <post_process_script/>
+        <pre_edit_script/>
+        <sys_class_name>sys_alias_templates</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 18:59:37</sys_created_on>
+        <sys_id>fbd13331476a311033ff0dae436d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>People Finder Configuration Template</sys_name>
+        <sys_package display_value="People Finder" source="x_425448_people_fi">4ca1b7b5476a311033ff0dae436d432a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="People Finder">4ca1b7b5476a311033ff0dae436d432a</sys_scope>
+        <sys_update_name>sys_alias_templates_fbd13331476a311033ff0dae436d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 18:59:37</sys_updated_on>
+    </sys_alias_templates>
+</record_update>
